@@ -1,0 +1,174 @@
+
+* {list-style: none; }
+h1, h2 ,h3, h4, h5, h6 {margin: 0; padding: 0;}
+
+h1, h2, h3 {font-family: 'Raleway', sans-serif; font-size: 18px;}
+p, ul, li, span{margin: 0px; padding:0px; }
+
+a {text-decoration: none !important}
+
+.clr {clear: both;}
+
+
+/* TopHeader css start */
+.headTop {
+    width: auto; 
+    background-color:#0082d4;    
+    font-size: 14px;
+}
+.headTop ul {
+   text-align: right;
+    font-size: 14px;
+}
+.headTop li {    
+    color: #fff;
+    display: inline-block;
+}
+.headTop li a {    
+    color: #fff;
+    text-decoration: none;
+    padding:10px 18px;
+    display: block;
+}
+.headTop li a:hover {    
+    color: rgba(255, 255, 255, 0.829);
+}
+.headTop li:last-child {    
+    color: #fff;
+    background-color: #dd137b;
+}
+.headTop li:last-child:hover {    
+    background-color: #030000;
+}
+.headTop i {
+    padding-right: 2px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+/* TopHeader css end */
+
+/* Logo/Nav css start */
+header {
+    width: 1200px;
+    padding: 22px 0;
+    margin: 0 auto !important;
+}
+header ul {
+    margin: 20px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    float: right;
+}
+header li {
+    float: left;
+}
+header li a {
+    padding: 0 15px;
+    color: #027bc7;
+}
+header li a:hover {
+    color: #df0475;
+}
+/* Logo/Nav css end */
+
+/* Slider css start */
+.sliders {
+    width: 100%;
+    background-color: #eeeeee;
+    float: left;
+    padding: 0 0 0 0;
+}
+.slider-container{
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+.slider-left {
+    float: left;
+    padding-top: 80px;
+}
+.slider-right {
+    display: flex;
+    text-align: right;
+    /* justify-content: right; */
+    /* align-items: center; */
+    align-items: center;
+    justify-content: end;
+    min-height: 490px;
+}
+.slider-right h1 {
+    font-size: 65px;
+    color: #696969;
+    font-family: 'Raleway', sans-serif;
+    line-height: 60px;
+}
+.slider-right h1 span {
+    font-size: 58px;
+    color: #404040;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    display: block;
+}
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: none;
+    margin-top: 20px;
+    display: block
+}
+
+.btn-blue {
+    background-color: #0082d4;
+}
+.btn-pink {
+    background-color: #dd137b;
+}
+/* Slider css end */
+
+/* services css start */
+.services-body{
+    width: 100%;
+    background:url(../images/bg-mobile.png) no-repeat top right;
+    margin: 65px 0 0 0;
+    padding: 30px 0 0 0;
+    height: 500px;
+    display: inline-block;
+}
+.service-wrap{
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+.service-wrap h2 {
+    font-size: 50px;
+    color: #404040;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #dcdcdc;
+    line-height: 50px;
+}
+.service-wrap h2 span {
+    font-size: 50px;
+    color: #0082d4;
+    font-weight: 900;
+    display: block;
+}
+
+
+.banner{
+    width: 100%;
+    background-color: #eeeeee;
+    display: flex;
+    height: 490px;
+    padding-top: 80px;
+}
+
+.bannerDesign{
+    display: flex;
+}
+
+/* services css end */
