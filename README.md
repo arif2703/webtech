@@ -2,6 +2,11 @@
 
 ## Git Commands
 
+### Check which branch you are working on
+```bash
+$ git branch
+```
+
 ### Create a Branch
 ```bash
 $ git checkout -b "<branchName>"
