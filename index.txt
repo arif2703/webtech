@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<title>Web Tech  |  Home</title>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+<div class="container-fluid">
+    <!-- headTop Start -->
+	<div class="row headTop">
+    	<div class="col-md-12 align-middle">
+            <ul>
+                <li><a href="tel:9899688447" ><i class="fa fa-phone" aria-hidden="true"></i> +91-9899688447</a></li>
+                <li><a href="mailto:enquiry@webtech.com"><i class="fa fa-envelope" aria-hidden="true"></i> enquiry@webtech.com </a> </li>
+                <li><a href="#">Request A Call</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- headTop End -->
+
+    <!-- Logo/Nav start -->
+    <header class="row">
+        <div class="col-md-4"><img src="images/logo.jpg" alt="WebTech Logo"></div>
+        <div class="col-md-8">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Logo/Nav end -->
+    </div>
+    
+    <!-- Slider-container -->
+    <!-- <div class="sliders">
+        <div class="slider-container">
+            <div class="slider-left"><img src="images/pic-desktop.jpg" alt=""></div>
+            <div class="slider-right">
+                <h1>Responsive <span>Website Design</span></h1>
+               
+                <button class="btn btn-blue">Get Started Now</button>
+                <button class="btn btn-pink">Pricing & Packaging</button>
+            
+            </div>
+        </div>
+    </div> -->
+    <div class="banner">
+            <div class="container">
+                <div class="bannerDesign">
+                <img src="images/pic-desktop.jpg" alt="">
+
+                <div class="slider-right">
+                <h1>Responsive <span>Website Design</span></h1>
+                  <div style="flex-direction: row-reverse; display: flex;">
+                <button class="btn btn-blue">Get Started Now</button>
+                <button class="btn btn-pink mrL">Pricing & Packaging</button>
+               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services container start -->
+    <div class="services-body">
+        <div class="service-wrap">
+            <h2>WebTech Professional <span>Design Services</span></h2>
+
+            <div class="row">
+                <div class="col-md-4">jhdkljkl;df</div>
+                <div class="col-md-4">dfd</div>
+                <div class="col-md-4">dfdf</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Services container end -->   
+
+
+<!-- Optional JavaScript --> 
+<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

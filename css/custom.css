@@ -5,12 +5,16 @@ h1, h2 ,h3, h4, h5, h6 {margin: 0; padding: 0;}
 h1, h2, h3 {font-family: 'Raleway', sans-serif; font-size: 18px;}
 p, ul, li, span{margin: 0px; padding:0px; }
 
+p{font-family: 'Roboto', sans-serif; color: #2c2c2c; font-size: 14px; line-height: 19px;}
 a {text-decoration: none !important}
+.text-white {color: #fff;}
 
 .clr {clear: both;}
 
 
 /* TopHeader css start */
+.logos{text-align: left;}
+
 .headTop {
     width: auto; 
     background-color:#0082d4;    
@@ -49,7 +53,7 @@ a {text-decoration: none !important}
 
 /* Logo/Nav css start */
 header {
-    width: 1200px;
+    width: 100%;
     padding: 22px 0;
     margin: 0 auto !important;
 }
@@ -89,13 +93,13 @@ header li a:hover {
     padding-top: 80px;
 }
 .slider-right {
-    display: flex;
+    /*display: flex;
     text-align: right;
-    /* justify-content: right; */
-    /* align-items: center; */
+    justify-content: right;
+     align-items: center; 
     align-items: center;
     justify-content: end;
-    min-height: 490px;
+    min-height: 490px;*/
 }
 .slider-right h1 {
     font-size: 65px;
@@ -113,16 +117,19 @@ header li a:hover {
 .btn {
     font-size: 16px;
     font-weight: bold;
-    padding: 15px 20px;
+    padding: 7px 20px;
     color: #fff;
     border-radius: 20px;
     box-shadow: none;
     margin-top: 20px;
-    display: block
 }
 
+.mrL{
+    margin-left: 10px
+}
 .btn-blue {
     background-color: #0082d4;
+
 }
 .btn-pink {
     background-color: #dd137b;
@@ -133,17 +140,17 @@ header li a:hover {
 .services-body{
     width: 100%;
     background:url(../images/bg-mobile.png) no-repeat top right;
-    margin: 65px 0 0 0;
+    margin: 65px 0 50px 0;
     padding: 30px 0 0 0;
-    height: 500px;
+    min-height: 500px;
     display: inline-block;
 }
-.service-wrap{
+/* .service-wrap{
     width: 1200px;
     display: block;
     margin: 0 auto;
-}
-.service-wrap h2 {
+} */
+h2 {
     font-size: 50px;
     color: #404040;
     font-family: 'Raleway', sans-serif;
@@ -151,13 +158,20 @@ header li a:hover {
     border-bottom: 1px solid #dcdcdc;
     line-height: 50px;
 }
-.service-wrap h2 span {
+h2 span {
     font-size: 50px;
     color: #0082d4;
     font-weight: 900;
     display: block;
 }
 
+h4 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 0 20px 0;
+    line-height: 50px;
+}
 
 .banner{
     width: 100%;
@@ -168,7 +182,152 @@ header li a:hover {
 }
 
 .bannerDesign{
-    display: flex;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+     justify-content: space-between;
 }
 
 /* services css end */
+.card {
+    margin-top: 30px; border: none;
+}
+.card i {font-size: 35px;}
+.card h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+
+i.faIconSize {font-size: 40px;}
+
+.aboutWrap{
+    background-color: #181818;
+}
+
+.padLzero{padding-left: 0 !important;}
+.padL-Rzero{padding-left: 0 !important; padding-right: 0 !important}
+.padL-R-Bzero{padding-left: 0 !important; padding-right: 0 !important; padding-bottom: 0 !important;}
+
+/* Client Review CSS */
+.client-body{
+    width: 100%;
+    margin: 65px 0 50px 0;
+    padding: 30px 0 0 0;
+    min-height: 500px;
+    display: inline-block;
+}
+.client-body h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #0082d4;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.ratings{
+    margin-top:20px;
+    display: block;
+    text-align: center;
+}
+.ratings .checked{
+    color: #0082d4;
+}
+
+/* Gallery css */
+.galleries{
+    background-color: #181818;
+}
+
+/* Team css */
+.team-body{
+    width: 100%;
+    margin: 65px 0 50px 0;
+    padding: 30px 0 0 0;
+    min-height: 500px;
+    display: inline-block;
+}
+
+/* Stay Connected Css */
+.stayConnected{
+    background-color: #0082d4;
+}
+.stayConnected p{
+    font-size: 16px;
+    color: #eeeeee;
+    margin: 10px 0 20px 0;
+}
+.grayBG{
+    background-color: #f1f1f1;
+}
+.card-text span{
+    border-bottom: #0082d4 2px solid;
+    width: 25%;
+    height: 2px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    display:block;
+}
+
+.card-title{
+    font-size: 26px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+}
+
+.stayConnected input[type=text]{
+    width: 40%;
+    margin-top: 20px;  
+    border-radius: 50px;  
+}
+
+/* Home Enquiry Form */
+.enquiry-container{
+    margin: 90px 0 80px;
+}
+.enquiry-container h4{
+    font-size:20px; 
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c1c1c1;
+    color: #030000; 
+}
+.form-boxy{
+    border: #c1c1c1 1px solid;
+    border-radius: 10px;
+    padding: 5px 20px 2px 20px;
+}
+
+/* footer css */
+.footer{
+    background-color: #323232;
+    padding: 30px 0;
+}
+.footer h5{
+    font-size: 20px;
+    color: #dcdcdc;
+}
+.footer p{
+    font-size: 15px;
+    color: #dcdcdc;
+}
+.copyright{
+    background-color: #262626;
+    padding: 20px;
+    border-top: 1px solid white;
+    text-align: center;
+}
+
+
+
+/* Responsive by @Media Screen */
+@media screen and (max-width:768px){
+    .padLzero{padding-left:0 !important; padding-right: 0 !important;}
+}
+
+@media screen and (max-width:992px){
+    header li a {padding: 0 10px;}
+    .logos{text-align:center;}
+}
