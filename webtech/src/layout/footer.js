@@ -1,7 +1,11 @@
 import React from 'react'
 
+import FooterEmailComponent from '../components/footer.email.component'
+import FooterPhoneComponent from '../components/footer.phone.component'
+
 const Footer = (props) =>{
     console.log(props)
+    const phones = [props.phone1, props.phone2]
     return(
         <div className="container-fluid footer">
             <div className="container">
@@ -10,14 +14,15 @@ const Footer = (props) =>{
                 <h5>Get in Touch</h5>
                 <p>{props.address}</p>
             </div>
-            <div className="col-md-3">
-                <h5>Work with Us</h5>
-                <p><a href="mailto:sales@webtech.com" target="blank">{props.email}</a></p>
-            </div>
-            <div className="col-md-3">
-                <h5>Give us a Call</h5>
-                <p>{props.phone1}, {props.phone2}</p>
-            </div>
+            <FooterEmailComponent 
+                heading="Work with Us"
+                email="sales@webtech.com"
+            />
+            <FooterPhoneComponent 
+                heading="Give us a Call"
+                phones={phones}
+            />
+
             <div className="col-md-3">
                 <h5>Follow us On</h5>
                 <p><a href="#np">{props.fbMedia}</a> | 

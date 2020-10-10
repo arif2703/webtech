@@ -3,7 +3,7 @@ import ServiceComponent from './components/serviceComponent'
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Banner from './components/banner'
-import Footer from './components/footer'
+import Footer from './layout/footer'
 import TeamComponent from './components/teamComponent'
 
 function App() {
