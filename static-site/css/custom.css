@@ -99,15 +99,15 @@ header li a:hover {
     float: left;
     padding-top: 80px;
 }
-.slider-right {
-    /*display: flex;
+/*.slider-right {
+    display: flex;
     text-align: right;
     justify-content: right;
      align-items: center; 
     align-items: center;
     justify-content: end;
-    min-height: 490px;*/
-}
+    min-height: 490px;
+}*/
 .slider-right h1 {
     font-size: 65px;
     color: #696969;

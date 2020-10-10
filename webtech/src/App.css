@@ -1,0 +1,4 @@
+
+.bannerFix{
+    flex-direction: row-reverse; display: flex;
+}
