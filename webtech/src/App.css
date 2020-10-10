@@ -1,3 +1,7 @@
+
+.bannerFix{
+    flex-direction: row-reverse; display: flex;
+}
 .icony {
   display: flex;
   justify-content: right;
