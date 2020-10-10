@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Banner from './components/banner'
 import Footer from './components/footer'
+import TeamComponent from './components/teamComponent'
 
 function App() {
   return (
@@ -19,7 +20,14 @@ function App() {
         <ServiceComponent 
           heading="Web Development"
           description="WebTech India offers website development over an extensive variety of innovation stages to guarantee"
-          icon="fa-code"
+          icon="faCode"
+        />        
+      </div>
+      <div>
+        <TeamComponent
+          designation = 'Web - Lead Designer'
+          name = 'Phillips John'
+          imgUrl = {`${process.env.PUBLIC_URL}/images/team2.jpg`}
         />
       </div>
       <Footer
@@ -32,6 +40,7 @@ function App() {
         linkedin="Linkedin"
         copyright="Copyright 2020 WebTech | All rights reserved"
       />
+
     </div>
   );
 }

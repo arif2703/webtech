@@ -1,11 +1,13 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import * as fontIcon from '@fortawesome/free-solid-svg-icons'
 
 export default (props) => {
   const {heading, description, icon} = props
   return (
     <div className="row no-gutters">
         <div className="col-md-2 icony">
-          <i className={`fa ${icon}`} aria-hidden="true"></i>
+          <FontAwesomeIcon icon={fontIcon[icon]} />
         </div>
         <div className="col-md-10">
             <div className="card-body">
