@@ -1,3 +1,7 @@
+* {list-style: none; }
+h1, h2 ,h3, h4, h5, h6 {margin: 0; padding: 0;}
+h1, h2, h3 {font-family: 'Raleway', sans-serif; font-size: 18px;}
+p, ul, li, span{margin: 0px; padding:0px; }
 
 .bannerFix{
     flex-direction: row-reverse; display: flex;
@@ -8,3 +12,100 @@
   align-items: center;
   font-size: 35px;
 }
+
+
+
+/* Top header */
+.logos{text-align: left;}
+
+.headTop {
+    width: auto; 
+    background-color:#0082d4;    
+    font-size: 14px;
+}
+.headTop ul {
+   text-align: right;
+    font-size: 14px;
+    margin: -5px;
+}
+.headTop li {    
+    color: #fff;
+    display: inline-block;
+}
+.headTop li a {    
+    color: #fff;
+    text-decoration: none;
+    padding:10px 18px;
+    display: block;
+}
+.headTop li a:hover {    
+    color: rgba(255, 255, 255, 0.829);
+}
+.headTop li:last-child {    
+    color: #fff;
+    background-color: #dd137b;
+}
+.headTop li:last-child:hover {    
+    background-color: #030000;
+}
+.headTop i {
+    padding-right: 2px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+
+/* top header end */
+
+
+/* Logo/Nav css start */
+header {
+  width: 100%;
+  padding: 22px 0;
+  margin: 0 auto !important;
+}
+header ul {
+  margin: 20px 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  float: right;
+}
+header li {
+  float: left;
+}
+header li a {
+  padding: 0 15px;
+  color: #027bc7;
+}
+header li a:hover {
+  color: #df0475;
+}
+/* Logo/Nav css end */
+
+
+
+/* Logo/Nav css start */
+header {
+  width: 100%;
+  padding: 22px 0;
+  margin: 0 auto !important;
+}
+header ul {
+  margin: 20px 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  float: right;
+}
+header li {
+  float: left;
+}
+header li a {
+  padding: 0 15px;
+  color: #027bc7;
+}
+header li a:hover {
+  color: #df0475;
+}
+/* Logo/Nav css end */
