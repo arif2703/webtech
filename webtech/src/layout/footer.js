@@ -27,9 +27,9 @@ const Footer = (props) =>{
             />
             <FooterSocialComponent
                 heading="Follow us On"
-                facebook={facebook}
-                twitter={twitter}
-                linkedin={linkedin}
+                facebook="facebook"
+                twitter="twitter"
+                linkedin="linkedin"
             />
             
             </div>
