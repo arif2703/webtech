@@ -5,10 +5,14 @@ import './App.css';
 import Banner from './components/banner'
 import Footer from './layout/footer'
 import TeamComponent from './components/teamComponent'
+import Header from './layout/header.layout'
 
 function App() {
   return (
     <div>
+
+      <Header/>
+
       <Banner
         image={`${process.env.PUBLIC_URL}/images/pic-desktop.jpg`}
         bannerTitle="Responsive"
