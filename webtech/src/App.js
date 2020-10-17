@@ -35,13 +35,8 @@ function App() {
         />
       </div>
       <Footer
-        address="C-27, Ist floor, Pili Kothi, Khanpur, ND-80"
-        email="sales@webtech.com"
         phone1='9899688447'
         phone2='9910804980'
-        fbMedia="Facebook"
-        twitter="Twitter"
-        linkedin="Linkedin"
         copyright="Copyright 2020 WebTech | All rights reserved"
       />
 

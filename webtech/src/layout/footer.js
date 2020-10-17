@@ -2,6 +2,8 @@ import React from 'react'
 
 import FooterEmailComponent from '../components/footer.email.component'
 import FooterPhoneComponent from '../components/footer.phone.component'
+import FooterAddressComponent from '../components/footer.address.component'
+import FooterSocialComponent from '../components/footer.social.components'
 
 const Footer = (props) =>{
     console.log(props)
@@ -10,26 +12,26 @@ const Footer = (props) =>{
         <div className="container-fluid footer">
             <div className="container">
             <div className="row">
-            <div className="col-md-3">
-                <h5>Get in Touch</h5>
-                <p>{props.address}</p>
-            </div>
+            <FooterAddressComponent
+                heading="Get in Touch"
+                address="C-27, Ist floor, Pili Kothi, Khanpur, ND-80"
+            />
+
             <FooterEmailComponent 
-                heading="Work with Us"
+                heading="Work with Us" 
                 email="sales@webtech.com"
             />
             <FooterPhoneComponent 
                 heading="Give us a Call"
                 phones={phones}
             />
-
-            <div className="col-md-3">
-                <h5>Follow us On</h5>
-                <p><a href="#np">{props.fbMedia}</a> | 
-                   <a href="#np">{props.twitter}</a> | 
-                   <a href="#np">{props.linkedin}</a>  
-                </p>
-            </div>
+            <FooterSocialComponent
+                heading="Follow us On"
+                facebook={facebook}
+                twitter={twitter}
+                linkedin={linkedin}
+            />
+            
             </div>
         </div>
         <div className="container-fluid copyright">{props.copyright}</div>
