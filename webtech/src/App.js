@@ -6,6 +6,8 @@ import Banner from './components/banner'
 import Footer from './layout/footer'
 import TeamComponent from './components/teamComponent'
 import Header from './layout/header.layout'
+import BannerBig from './components/banner.component'
+import OurPassion from './layout/our.passion.layout'
 
 function App() {
   return (
@@ -13,20 +15,24 @@ function App() {
 
       <Header/>
 
-      <Banner
-        image={`${process.env.PUBLIC_URL}/images/pic-desktop.jpg`}
-        bannerTitle="Responsive"
-        bannerTitle2="Website Design"
-        btn1="Pricing &amp; Packaging"
-        btn2="Get Started Now"
-      />
-      <div className="card col-md-6 col-lg-4">
+      <BannerBig
+            imgUrl={`${process.env.PUBLIC_URL}/images/pic-desktop.jpg`}
+            title="Responsive"
+            title2="Website Design"
+            btnC1="Pricing & Packaging"
+            btnC2="Get Started Now"
+        />
+
+
+      
         <ServiceComponent 
           heading="Web Development"
           description="WebTech India offers website development over an extensive variety of innovation stages to guarantee"
           icon="faCode"
         />        
-      </div>
+      
+         <OurPassion/>
+
       <div>
         <TeamComponent
           designation = 'Web - Lead Designer'

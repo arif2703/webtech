@@ -109,3 +109,134 @@ header li a:hover {
   color: #df0475;
 }
 /* Logo/Nav css end */
+
+
+/* Banner */
+
+.bannerContent{
+  flex-direction: row-reverse; 
+  display: flex;
+}
+
+.sliders {
+  width: 100%;
+  background-color: #eeeeee;
+  float: left;
+  padding: 0 0 0 0;
+}
+.slider-container{
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+.slider-left {
+  float: left;
+  padding-top: 80px;
+}
+
+.slider-right h1 {
+  font-size: 65px;
+  color: #696969;
+  font-family: 'Raleway', sans-serif;
+  line-height: 60px;
+}
+.slider-right h1 span {
+  font-size: 58px;
+  color: #404040;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  display: block;
+}
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 7px 20px;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: none;
+  margin-top: 20px;
+}
+
+.mrL{
+  margin-left: 10px
+}
+.btn-blue {
+  background-color: #0082d4;
+
+}
+.btn-pink {
+  background-color: #dd137b;
+}
+
+.banner{
+  width: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  height: 490px;
+  padding-top: 80px;
+}
+
+.bannerDesign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-between;
+}
+
+/* Banner end */
+
+
+.card {
+  margin-top: 30px; border: none;
+}
+.card i {font-size: 35px;}
+.card h3{
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+i.faIconSize {font-size: 40px;}
+
+.aboutWrap{
+  background-color: #181818;
+}
+
+.padLzero{padding-left: 0 !important;}
+.padL-Rzero{padding-left: 0 !important; padding-right: 0 !important}
+.padL-R-Bzero{padding-left: 0 !important; padding-right: 0 !important; padding-bottom: 0 !important;}
+.services-body{
+  width: 100%;
+  /* background:url(../images/bg-mobile.png) no-repeat top right; */
+  /* background: url("../public/images/bg-mobile.png") no-repeat top right; */
+
+  margin: 65px 0 50px 0;
+  padding: 30px 0 0 0;
+  min-height: 500px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 50px;
+  color: #404040;
+  font-family: 'Raleway', sans-serif;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #dcdcdc;
+  line-height: 50px;
+}
+
+
+h2 span {
+  color: #0082d4;
+  font-weight: 900;
+  display: block;
+}
+
+h4 {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  padding: 0 0 20px 0;
+  line-height: 50px;
+}
+/* service card end */
