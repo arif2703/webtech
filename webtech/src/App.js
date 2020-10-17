@@ -7,6 +7,7 @@ import Footer from './layout/footer'
 import TeamComponent from './components/teamComponent'
 import Header from './layout/header.layout'
 import BannerBig from './components/banner.component'
+import OurPassion from './layout/our.passion.layout'
 
 function App() {
   return (
@@ -23,13 +24,15 @@ function App() {
         />
 
 
-      <div className="card col-md-6 col-lg-4">
+      
         <ServiceComponent 
           heading="Web Development"
           description="WebTech India offers website development over an extensive variety of innovation stages to guarantee"
           icon="faCode"
         />        
-      </div>
+      
+         <OurPassion/>
+
       <div>
         <TeamComponent
           designation = 'Web - Lead Designer'

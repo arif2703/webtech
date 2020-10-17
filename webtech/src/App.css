@@ -184,3 +184,59 @@ header li a:hover {
 }
 
 /* Banner end */
+
+
+.card {
+  margin-top: 30px; border: none;
+}
+.card i {font-size: 35px;}
+.card h3{
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+i.faIconSize {font-size: 40px;}
+
+.aboutWrap{
+  background-color: #181818;
+}
+
+.padLzero{padding-left: 0 !important;}
+.padL-Rzero{padding-left: 0 !important; padding-right: 0 !important}
+.padL-R-Bzero{padding-left: 0 !important; padding-right: 0 !important; padding-bottom: 0 !important;}
+.services-body{
+  width: 100%;
+  /* background:url(../images/bg-mobile.png) no-repeat top right; */
+  /* background: url("../public/images/bg-mobile.png") no-repeat top right; */
+
+  margin: 65px 0 50px 0;
+  padding: 30px 0 0 0;
+  min-height: 500px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 50px;
+  color: #404040;
+  font-family: 'Raleway', sans-serif;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #dcdcdc;
+  line-height: 50px;
+}
+
+
+h2 span {
+  color: #0082d4;
+  font-weight: 900;
+  display: block;
+}
+
+h4 {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  padding: 0 0 20px 0;
+  line-height: 50px;
+}
+/* service card end */
