@@ -109,3 +109,78 @@ header li a:hover {
   color: #df0475;
 }
 /* Logo/Nav css end */
+
+
+/* Banner */
+
+.bannerContent{
+  flex-direction: row-reverse; 
+  display: flex;
+}
+
+.sliders {
+  width: 100%;
+  background-color: #eeeeee;
+  float: left;
+  padding: 0 0 0 0;
+}
+.slider-container{
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+.slider-left {
+  float: left;
+  padding-top: 80px;
+}
+
+.slider-right h1 {
+  font-size: 65px;
+  color: #696969;
+  font-family: 'Raleway', sans-serif;
+  line-height: 60px;
+}
+.slider-right h1 span {
+  font-size: 58px;
+  color: #404040;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  display: block;
+}
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 7px 20px;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: none;
+  margin-top: 20px;
+}
+
+.mrL{
+  margin-left: 10px
+}
+.btn-blue {
+  background-color: #0082d4;
+
+}
+.btn-pink {
+  background-color: #dd137b;
+}
+
+.banner{
+  width: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  height: 490px;
+  padding-top: 80px;
+}
+
+.bannerDesign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-between;
+}
+
+/* Banner end */
