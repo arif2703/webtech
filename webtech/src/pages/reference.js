@@ -23,11 +23,7 @@ function ReferencePage() {
 
 
       
-        <ServiceComponent 
-          heading="Web Development"
-          description="WebTech India offers website development over an extensive variety of innovation stages to guarantee"
-          icon="faCode"
-        />        
+        <ServiceComponent/>        
       
          <OurPassion/>
 

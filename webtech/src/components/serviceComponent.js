@@ -1,20 +1,39 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import * as fontIcon from '@fortawesome/free-solid-svg-icons'
+import ServiceCardView from './service.card.view.component'
+import Heading from './heading.component'
 
-export default (props) => {
-  const {heading, description, icon} = props
-  return (
-    <div className="row no-gutters">
-        <div className="col-md-2 icony">
-          <FontAwesomeIcon icon={fontIcon[icon]} />
-        </div>
-        <div className="col-md-10">
-            <div className="card-body">
-              <h3 className="card-title">{heading}</h3>
-              <p className="card-text">{description}</p>
-            </div>
-        </div>
+const ServiceCard = () =>{
+  
+  return(
+    <div className="services-body mb-5">
+      <div className="container">
+        <Heading
+          title1="WebTech Professional"
+          title2="Design Services"
+        />
+      <div className="row no-gutters">
+        <ServiceCardView
+          title="Web Design"
+          description="Your website is the initial introduction of your organization and
+          says a lot about your work, not simply regarding"
+        />
+
+<ServiceCardView
+          title="Web Development"
+          description="Your website is the initial introduction of your organization and
+          says a lot about your work, not simply regarding"
+        />
+
+<ServiceCardView
+          title="Graphic & Print design"
+          description="Your website is the initial introduction of your organization and
+          says a lot about your work, not simply regarding"
+        />
     </div>
+      </div>
+    </div>
+    
   )
 }
+
+export default ServiceCard;
