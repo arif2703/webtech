@@ -270,3 +270,79 @@ h4 {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 0px;
 }
+
+
+
+/* Client Review CSS */
+.client-body{
+  width: 100%;
+  margin: 65px 0 50px 0;
+  padding: 30px 0 0 0;
+  min-height: 500px;
+  display: inline-block;
+}
+.client-body h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  color: #0082d4;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.ratings{
+  margin-top:20px;
+  display: block;
+  text-align: center;
+}
+.ratings .checked{
+  color: #0082d4;
+}
+
+.block{
+  display: block;
+}
+
+/* Client Review CSS end */
+
+
+/* footer css */
+.footer{
+  background-color: #323232;
+  padding: 40px 0 0;
+}
+.footer h5{
+  font-size: 18px;
+  color: #dcdcdc;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.footer p{
+  font-size: 14px;
+  color: #dcdcdc;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer p a{color: #dcdcdc;}
+.footer p a:hover{color: #ffffff;}
+
+.copyright{
+  background-color: #262626;
+  padding: 20px;
+  border-top: 1px solid #dcdcdc;
+  text-align: center;
+  margin-top: 30px;
+  color: #dcdcdc;
+  font-size: 14px;
+}
+
+
+
+/* Responsive by @Media Screen */
+@media screen and (max-width:768px){
+  .padLzero{padding-left:0 !important; padding-right: 0 !important;}
+}
+
+@media screen and (max-width:992px){
+  header li a {padding: 0 10px;}
+  .logos{text-align:center;}
+}

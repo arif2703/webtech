@@ -6,6 +6,7 @@ import Team from '../components/teamComponent'
 import Header from '../layout/header.layout'
 import BannerBig from '../components/banner.component'
 import OurPassion from '../layout/our.passion.layout'
+import ClientReview from '../components/client.review.component'
 
 function ReferencePage() {
   return (
@@ -24,7 +25,8 @@ function ReferencePage() {
 
       
         <ServiceComponent/>        
-         <OurPassion/>      
+         <OurPassion/>   
+         <ClientReview/>
          <Team/>
      
       <Footer
