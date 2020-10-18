@@ -240,3 +240,33 @@ h4 {
   line-height: 50px;
 }
 /* service card end */
+
+/* Team css */
+.team-body{
+  width: 100%;
+  margin: 65px 0 50px 0;
+  padding: 30px 0 0 0;
+  min-height: 500px;
+  display: inline-block;
+}
+
+.grayBG{
+  background-color: #f1f1f1;
+}
+
+.card-text span{
+  border-bottom: #0082d4 2px solid;
+  width: 25%;
+  height: 2px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  display:block;
+}
+
+.card-title{
+  font-size: 26px;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0px;
+}

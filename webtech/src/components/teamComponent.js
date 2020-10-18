@@ -1,21 +1,29 @@
-
 import React from 'react'
+import Heading from './heading.component'
+import TeamView from './team.view.component'
 
-
-const TeamComponent = (props) =>{
-    return(
-        <div className="col-md-4 col-sm-6">
-            <div className="card">
-                <img src={props.imgUrl} className="card-img-top" alt="Team"/>
-                <div className="card-body">
-                    <div className="card-text">{props.designation}
-                        <span></span>
-                    </div>
-                    <div className="card-title">{props.name}</div>
-                </div>
-            </div>
+const Team = () =>{
+  return(
+    
+    <div class="container-fluid grayBG">
+        <div class="container">
+            <div class="team-body">
+                <Heading
+                  title1="Our dedicated"
+                  title2="Design Team"
+                />
+                <div class="row">
+                 <TeamView
+                  imgUrl={`${process.env.PUBLIC_URL}/images/team1.jpg`}
+                  designation="Founder / Lead Designer"
+                  name="Cindrella Commy"
+                 />  
+                   
         </div>
-    )
+    </div>
+    </div>
+    </div>
+  )
 }
 
-export default TeamComponent;
+export default Team;
