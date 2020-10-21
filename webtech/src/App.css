@@ -351,6 +351,27 @@ h4 {
   border-radius: 50px;  
 }
 
+/* Home Enquiry Form */
+.enquiry-container{
+  margin: 90px 0 80px;
+}
+.enquiry-container h4{
+  font-size:20px; 
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #c1c1c1;
+  color: #030000; 
+}
+.form-boxy{
+  border: #c1c1c1 1px solid;
+  border-radius: 10px;
+  padding: 5px 20px 20px 20px;
+}
+
+.form-boxy input[type=submit]{
+  margin-top: 0px !important;
+}
+
 
 
 /* Responsive by @Media Screen */

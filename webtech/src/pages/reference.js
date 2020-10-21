@@ -8,6 +8,7 @@ import BannerBig from '../components/banner.component'
 import OurPassion from '../layout/our.passion.layout'
 import ClientReview from '../components/client.review.component'
 import StayInfromation from '../layout/stay.information.layout'
+import QuaryForm from '../components/quary.form.component'
 function ReferencePage() {
   return (
     <div>
@@ -29,6 +30,7 @@ function ReferencePage() {
          <ClientReview/>
          <Team/>
          <StayInfromation/>
+         <QuaryForm/>
      
       <Footer
         phone1='9899688447'
