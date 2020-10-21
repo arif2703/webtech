@@ -7,7 +7,7 @@ import Header from '../layout/header.layout'
 import BannerBig from '../components/banner.component'
 import OurPassion from '../layout/our.passion.layout'
 import ClientReview from '../components/client.review.component'
-
+import StayInfromation from '../layout/stay.information.layout'
 function ReferencePage() {
   return (
     <div>
@@ -28,6 +28,7 @@ function ReferencePage() {
          <OurPassion/>   
          <ClientReview/>
          <Team/>
+         <StayInfromation/>
      
       <Footer
         phone1='9899688447'

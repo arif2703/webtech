@@ -1,6 +1,6 @@
 import React from 'react'
-import StayInformationText from '../component/stay.information.text'
-import Subscribe from '../component/subscribe.component'
+import StayInformationText from '../components/stay.information.text.component'
+import Subscribe from '../components/subscribe.component'
 
 const StayInfromation = () =>{
   return(

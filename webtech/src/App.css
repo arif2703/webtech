@@ -336,6 +336,22 @@ h4 {
 }
 
 
+/* Stay Connected Css */
+.stayConnected{
+  background-color: #0082d4;
+}
+.stayConnected p{
+  font-size: 16px;
+  color: #eeeeee;
+  margin: 10px 180px 20px 180px;
+}
+.stayConnected input[type=text]{
+  width: 40%;
+  margin-top: 20px;  
+  border-radius: 50px;  
+}
+
+
 
 /* Responsive by @Media Screen */
 @media screen and (max-width:768px){
